@@ -16,7 +16,7 @@ match priority:
     case _:
         reminder = f"Unknown priority task: {task}"
 
-if time_bound.lower() == "yes":
+if time_bound== "yes":
     reminder += " that requires immediate attention today!"
 
 # Provide a Customized Reminder
